@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f7fc;
+    color: #20364a;
+}
+
+header {
+    background: linear-gradient(135deg, #123b59, #168aad);
+    color: white;
+    text-align: center;
+    padding: 55px 20px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 12px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    background: #0c2940;
+    padding: 17px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #72d6e8;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+section {
+    background: white;
+    margin-bottom: 25px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px #00000010;
+}
+
+section h2 {
+    color: #126782;
+    margin-bottom: 15px;
+}
+
+section p {
+    line-height: 1.7;
+}
+
+.boton {
+    display: inline-block;
+    background: #087eaa;
+    color: white;
+    padding: 14px 22px;
+    border-radius: 9px;
+    text-decoration: none;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background: #075477;
+}
+
+footer {
+    background: #0c2940;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+}
